@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('print'){
             steps{
-                sh "python3 ./main_test.py"
+                sh "python ./main_test.py"
             }
         }
     }
